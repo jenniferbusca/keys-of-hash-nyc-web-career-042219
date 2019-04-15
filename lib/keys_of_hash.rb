@@ -7,6 +7,7 @@ class Hash
       if args.include?(v)
       new_arr << k
     end
+  end
   # map {|k,v| args.include?(v) ? k : nil}.compact
   return new_arr.flatten
   end
