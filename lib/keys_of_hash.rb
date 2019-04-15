@@ -8,5 +8,6 @@ class Hash
         new_arr << k
       end
    end
+   return new_arr
   end
 end
