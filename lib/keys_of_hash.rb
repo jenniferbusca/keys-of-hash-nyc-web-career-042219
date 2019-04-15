@@ -10,9 +10,9 @@ class Hash
     new_arr = []
     args.map do |k,v| 
       args.include?(v) ? k : nil
-      # new_arr << k
+    
       end
    end
-  return new_arr
+  # return new_arr
   end
 end
