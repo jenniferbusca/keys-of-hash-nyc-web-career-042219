@@ -5,7 +5,7 @@ class Hash
    new_arr = []
    args.each do |k,v|
       args.include?(v)
-      k
+      new_arr << k
     end
   # map {|k,v| args.include?(v) ? k : nil}.compact
   return new_arr
