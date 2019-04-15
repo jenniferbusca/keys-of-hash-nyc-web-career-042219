@@ -8,9 +8,9 @@ require "pry"
 class Hash
   def keys_of(*args)
     new_arr = []
-    args.each do |k,v| 
-      args.include?(v)
-      new_arr << k
+    args.map do |k,v| 
+      args.include?(v) ? k : nil
+      # new_arr << k
       end
    end
   return new_arr
