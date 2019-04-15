@@ -4,6 +4,7 @@ class Hash
     
     map do |k,v|
       args.include?(v)
+      return k
     end
   # map {|k,v| args.include?(v) ? k : nil}.compact
   end
