@@ -8,6 +8,6 @@ class Hash
       new_arr << k
     end
   # map {|k,v| args.include?(v) ? k : nil}.compact
-  return new_arr
+  return new_arr.flatten
   end
 end
