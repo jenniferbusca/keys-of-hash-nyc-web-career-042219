@@ -5,6 +5,6 @@ class Hash
    # map do |k,v|
    #   args.include?(v)
    # end
-   map {|k,v| args.include?(v) ? key : nil}.compact
+   map {|k,v| args.include?(v) ? k : nil}.compact
   end
 end
